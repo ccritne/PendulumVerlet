@@ -1,2 +1,2 @@
 # PendulumVerlet
-View of oscillations of pendulum with approximation of Verlet. 
+View of oscillations of pendulum with integration of Verlet. 
