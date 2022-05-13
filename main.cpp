@@ -287,7 +287,7 @@ int main(){
 	    	vel = vel + 0.5 * dt * f/weight;
 			f = -(g/rodC) * sin(angle) * weight;
 			vel = vel + 0.5 * dt * f/weight;
-			epot =  weight * g * (1-cos(angle));
+			epot =  weight * g * (1-cos(angle))*rodC;
 			ekin =  0.5 * weight * vel*vel;
 
 			AngleVelocity.addPoint(Point(dt*iter, angle, sf::Color::Red));
